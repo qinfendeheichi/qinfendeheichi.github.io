@@ -54,7 +54,7 @@ interests:
   - Test Generation
   - Dynamic Analysis
   - Program Comprehension
-  - Test Smell
+  - Test Smell Refactoring
 
 education:
   - area: "Ph.D. Software Engineering (continuing)"
@@ -76,22 +76,14 @@ education:
       Minored in Finance
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
+  - position: 'To be updated'
+    company_name: 'To be updated'
     company_url: 'https://ai.meta.com/'
     company_logo: ''
     date_start: 2020-01-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      'https://ai.meta.com/'
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -141,4 +133,6 @@ awards:
 
 ---
 
-Hang Du is a Ph.D. candidate in Software Engineering at the University of California, Irvine. He earned his B.Sc. in Computer Science from Jilin University in China and an M.S. in Software Engineering from UC Irvine, where he continued on to pursue doctoral studies beginning in 2022. His research centers on advancing software testing, with a focus on mutation testing, dynamic analysis, and program comprehension. In his prior work, Hang investigated the foundations of mutation testing and analyzed the propagation of faults through the RIPR model (Reachability, Infection, Propagation, and Reveal). These studies contribute to the broader effort of improving the reliability and effectiveness of software testing techniques, deepening our understanding of how faults manifest, propagate, and can ultimately be revealed by tests.
+Hang Du is currently a Ph.D. candidate in Software Engineering at the University of California, Irvine, where he is fortunate to be advised by [**Prof. James A. Jones**](https://jamesajones.com/). He also receives mentorship from **Dr. Vijay Krishna Palepu**, a SpiderLab alumnus currently at Microsoft. He earned his B.Sc. in Computer Science from Jilin University in China and an M.S. in Software Engineering from UC Irvine, where he continued on to pursue doctoral studies beginning in 2022. His research centers on advancing software testing, with a focus on mutation testing, dynamic analysis, and program comprehension. 
+
+Hang Du's work advances the reliability and maintainability of software systems by learning from both real bugs and artificially introduced faults to guide the improvement of test suites. It spans mutation testing, dynamic analysis, and test-code refactoring, and test generation, emphasizing techniques and tools that deliver practical value to developers. Looking ahead, his research seeks to strengthen automated approaches to testing and refactoring, enabling more effective, scalable, and sustainable quality assurance practices.

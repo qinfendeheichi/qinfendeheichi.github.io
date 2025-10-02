@@ -24,21 +24,17 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: 'In ICSE 2025: 47th IEEE/ACM International Conference on Software Engineering'
-publication_short: In *ICSE 2025*
+publication_short: In **ICSE 2025**
 
-abstract: 'The mechanics of how a fault reveals itself as a test failure is of keen interest to software researchers and practitioners alike. An improved understanding of how faults translate to failures can guide improvements in broad facets of software testing, ranging from test suite design to automated program repair, which are premised on the understanding that the presence of faults would alter some test executions.
-In this work, we study such effects by mutations, as applicable in mutation testing. Mutation testing enables the generation of a large corpus of faults; thereby harvesting a large pool of mutated test runs for analysis. Specifically, we analyze more than 1.1 million mutated test runs to study if and how the underlying mutations induce infections that propagate their way to observable failures.
-We adopt a broad-spectrum approach to analyze such a large pool of mutated runs. For every mutated test run, we are able to determine: (a) if the mutation induced a state infection; (b) if the infection propagated through the end of the test run; and (c) if the test failed in the presence of a propagated infection.
-By examining such infection-, propagation- and revealability-effects for more than 43,000 mutations executed across 1.1 million test runs we are able to arrive at some surprising findings. Our results find that once state infection is observed, propagation is frequently detected; however, a propagated infection does not always reveal itself as a test failure. We also find that a significant portion of survived mutants in our study could have been killed by observing propagated state infections that were left undetected. Finally, we also find that different mutation operators can demonstrate substantial differences in their specific impacts on the execution-to-failure ripples of the resulting mutations.'
+abstract: 'Mutation testing was proposed to identify weaknesses in test suites by repeatedly generating artificially faulty versions of the software (i.e., mutants) and determining if the test suite is sufficient to detect them (i.e., kill them). When the tests are insufficient, each surviving mutant provides an opportunity to improve the test suite. We conducted a study and found that many such surviving mutants (up to 84% for the subjects of our study) are detectable by simply augmenting existing tests with additional assertions, or assertion amplification. Moreover, we find that many of these mutants are detectable by multiple existing tests, giving developers options for how to detect them. To help with these challenges, we created a technique that performs memory-state analysis to identify candidate assertions that developers can use to detect the surviving mutants. Additionally, we build upon prior research that identifies “crossfiring” opportunities - tests that coincidentally kill multiple mutants. To this end, we developed a theoretical model that describes the varying granularities that crossfiring can occur in the existing test suite, which provide opportunities and options for how to kill surviving mutants. We operationalize this model to an accompanying technique that optimizes the assertion amplification of the existing tests to crossfire multiple mutants with fewer added assertions, optionally concentrated within fewer tests. Our experiments show that we can kill all surviving mutants that are detectable with existing test data with only 1.1% of the identified assertion candidates, and increasing by a factor of 6x, on average, the number of killed mutants from amplified tests, over tests that do not crossfire.'
 
 # Summary. An optional shortened abstract.
-summary: Many faults propagate without revealing as failures, suggesting that observing propagated infections can substantially improve test effectiveness through assertion amplification.
+summary: Sometimes a simple, localized edit, i.e., adding an additional assertion, may substantially improve the test suite effectiveness by crossfiring mutants.
 
 tags:
+  - Assertion Amplification
   - Mutation Testing
-  - Empirical Study
-  - RIPR Model
-  - Fault Error Propagation
+  - Crossfire
 
 # Display this page in the Featured widget?
 featured: true
@@ -46,7 +42,7 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: https://doi.org/10.1145/3597503.3639179
+    doi: https://doi.org/10.1109/ICSE55347.2025.00150
 
 # Custom links
 links:
@@ -58,7 +54,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Ripples of Mutations  in JfreeChart, aggregated by 320,357 mutation runs'
+  caption: 'Test and Assertion Crossfiring Capabilities'
   focal_point: ''
   preview_only: false
 
@@ -79,7 +75,6 @@ slides: ""
 ---
 
 > [!Tip]
-> Our large-scale study of 1.1M mutated test runs shows that while infections often propagate, while many do not manifest as observable test failures, leaving faults undetected. These findings highlight that mutation operators differ in how faults ripple into failures, and that detecting propagated infections may significantly improve test effectiveness through assertion amplification.
-
+> Up to 84% of surviving mutants can be detected by augmenting existing tests with additional assertions, and many are detectable by multiple tests, giving developers flexibility.
 
 <!--# Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).-->
