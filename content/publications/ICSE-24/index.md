@@ -32,7 +32,7 @@ We adopt a broad-spectrum approach to analyze such a large pool of mutated runs.
 By examining such infection-, propagation- and revealability-effects for more than 43,000 mutations executed across 1.1 million test runs we are able to arrive at some surprising findings. Our results find that once state infection is observed, propagation is frequently detected; however, a propagated infection does not always reveal itself as a test failure. We also find that a significant portion of survived mutants in our study could have been killed by observing propagated state infections that were left undetected. Finally, we also find that different mutation operators can demonstrate substantial differences in their specific impacts on the execution-to-failure ripples of the resulting mutations.'
 
 # Summary. An optional shortened abstract.
-summary: Many faults propagate without revealing as failures, suggesting that observing propagated infections can substantially improve test effectiveness through assertion amplification.
+summary: '[ICSE 24] Many faults propagate without revealing as failures, suggesting that observing propagated infections can substantially improve test effectiveness through assertion amplification.'
 
 tags:
   - Mutation Testing
