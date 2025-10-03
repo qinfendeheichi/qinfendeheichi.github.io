@@ -156,6 +156,6 @@ Hang Du is currently a Ph.D. candidate in Software Engineering at the University
 
 Hang Du's research centers on advancing software testing, with a focus on mutation testing, dynamic analysis, and program comprehension, emphasizing techniques and tools that deliver practical value to developers. Looking ahead, his research seeks to strengthen automated approaches to testing and refactoring, enabling more effective, scalable, and sustainable quality assurance practices.
 
-> *Mutations are simply a fancy term for injected bugs in software. Imagine airport security: mutation testing is like sneaking in fake threats—say a toy knife or a water bottle—to check if TSA catches them. If security doesn’t notice, that’s a red flag. In the same way, if your tests don’t catch these fake bugs, they might also miss real ones.*
+> ***Mutations are simply a fancy term for injected bugs in software.** Imagine airport security: mutation testing is like sneaking in fake threats—say a toy knife or a water bottle—to check if TSA catches them. If security doesn’t notice, that’s a red flag. In the same way, if your tests don’t catch these fake bugs, they might also miss real ones.*
 
 
