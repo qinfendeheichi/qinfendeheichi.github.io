@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Hang Du, Ph.D. Candidate, University of California Irvine'
+    description: 'Hang Du, Ph.D. Candidate, University of California Irvine'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
