@@ -75,15 +75,32 @@ education:
 
       Minored in Finance
 
+
+      
 work:
-  - position: 'To be updated'
-    company_name: 'To be updated'
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      'https://ai.meta.com/'
+
+  - position: "Associate Instructor – ICS 45J: Programming in Java"
+    company_name: "University of California, Irvine"
+    date_start: 2023-07-01
+    date_end: 2023-09-01
+    summary: |
+      Designed and taught an undergraduate course on Java programming; coordinated with teaching assistants.
+      
+      Overall Instructor Evaluation 8.08/9.00, Course Evaluation: 8.12/9.00
+
+      
+  - position: "Teaching Assistant"
+    company_name: "University of California, Irvine"
+    company_url: "https://uci.edu/"
+    date_start: 2022-09-01
+    date_end: 2025-10-01
+    summary: |
+      Teaching Assistants for  **INF 115**: Software Testing, Analysis, and QA, **INF 43**: Introduction to Software Engineering, and **SWE 261P**: Software Testing and Debuggin
+            
+      Supported lectures, graded assignments, and assisted students in understanding software engineering practices.
+
+
+      
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -121,6 +138,8 @@ skills:
 
 languages:
   - name: English
+    percent: 100
+  - name: Mandarin
     percent: 100
   - name: Spanish
     percent: 50

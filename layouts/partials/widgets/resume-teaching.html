@@ -1,0 +1,39 @@
+{{/* Teaching resume widget (clone of resume-experience) */}}
+{{ $page := .page }}
+{{ $block := .block }}
+
+<section id="{{ $block.name | default "teaching" }}" class="home-section wg-teaching">
+  <div class="container">
+
+    {{ with $block.content.title }}
+    <div class="section-heading">
+      <h1>{{ . }}</h1>
+    </div>
+    {{ end }}
+
+    {{ $author := site.GetPage (printf "authors/%s" $block.content.username | urlize) }}
+    {{ if $author }}
+      <div class="row">
+        <div class="col-12">
+          {{ range $author.Params.teaching }}
+            <div class="resume-item">
+              <h4>{{ .position }}</h4>
+              <p>
+                {{ with .company_url }}<a href="{{ . }}">{{ end }}
+                {{ .company_name }}
+                {{ if .company_url }}</a>{{ end }}
+              </p>
+              <p class="resume-date">
+                {{ .date_start }} — {{ if .date_end }}{{ .date_end }}{{ else }}Present{{ end }}
+              </p>
+              {{ with .summary }}
+                <p>{{ . | markdownify }}</p>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+
+  </div>
+</section>

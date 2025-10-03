@@ -23,3 +23,9 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+
+  # 👇 Add this for your custom blocks
+  - source: hbx/blocks
+    target: layouts/blocks
+    includeFiles: '**.html'
+
