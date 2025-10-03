@@ -72,7 +72,7 @@ education:
     date_start: 2017-09-01
     date_end: 2021-06-30
     summary: |
-
+    
       Minored in Finance
 
 
@@ -152,6 +152,10 @@ awards:
 
 ---
 
-Hang Du is currently a Ph.D. candidate in Software Engineering at the University of California, Irvine, where he is fortunate to be advised by [**Prof. James A. Jones**](https://jamesajones.com/). He also receives mentorship from **Dr. Vijay Krishna Palepu**, a SpiderLab alumnus currently at Microsoft. He earned his B.Sc. in Computer Science from Jilin University in China and an M.S. in Software Engineering from UC Irvine, where he continued on to pursue doctoral studies beginning in 2022. His research centers on advancing software testing, with a focus on mutation testing, dynamic analysis, and program comprehension. 
+Hang Du is currently a Ph.D. candidate in Software Engineering at the University of California, Irvine, where he is fortunate to be advised by [**Prof. James A. Jones**](https://jamesajones.com/). He also receives mentorship from **Dr. Vijay Krishna Palepu**, a SpiderLab alumnus currently at Microsoft. He earned his B.Sc. in Computer Science from Jilin University in China and an M.S. in Software Engineering from UC Irvine.
 
-Hang Du's work advances the reliability and maintainability of software systems by learning from both real bugs and artificially introduced faults to guide the improvement of test suites. It spans mutation testing, dynamic analysis, and test-code refactoring, and test generation, emphasizing techniques and tools that deliver practical value to developers. Looking ahead, his research seeks to strengthen automated approaches to testing and refactoring, enabling more effective, scalable, and sustainable quality assurance practices.
+Hang Du's research centers on advancing software testing, with a focus on mutation testing, dynamic analysis, and program comprehension, emphasizing techniques and tools that deliver practical value to developers. Looking ahead, his research seeks to strengthen automated approaches to testing and refactoring, enabling more effective, scalable, and sustainable quality assurance practices.
+
+> *Mutations are simply a fancy term for injected bugs in software. Imagine airport security: mutation testing is like sneaking in fake threats—say a toy knife or a water bottle—to check if TSA catches them. If security doesn’t notice, that’s a red flag. In the same way, if your tests don’t catch these fake bugs, they might also miss real ones.*
+
+
