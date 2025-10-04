@@ -17,13 +17,13 @@ marketing:
     description: 'Hang Du is a Ph.D. Candidate in Software Engineering at the University of California, Irvine. His research focuses on software testing, mutation testing, dynamic analysis, and program comprehension, with publications in top software engineering conferences and journals.'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-TCF63S2DVG'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
     pirsch: ''
   verification:
-    google: 'G-TCF63S2DVG'
+    google: ''
     baidu: ''
 
 # Site header
