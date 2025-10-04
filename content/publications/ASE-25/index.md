@@ -35,6 +35,7 @@ summary: '[ASE 25] We introduce Disjoint Assertion Tangle (DAT), a novel test-co
 
 tags:
   - Test Smell Refactoring
+  - Parameterized Unit Test
   - DAT
   - Eager Test
 
@@ -48,8 +49,8 @@ hugoblox:
 
 # Custom links
 links:
-  #- type: pdf
-  #  url: "conference-paper.pdf"
+  - type: pdf
+    url: "conference-paper.pdf"
   #- type: slides
    # url: slide.pptx
 
