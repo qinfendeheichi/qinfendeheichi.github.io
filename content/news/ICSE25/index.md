@@ -8,7 +8,7 @@ location:  Lisbon, Portugal
 address:
 
 
-summary: Pre-recorded talk for Leveraging Propagated Infection to Crossfire Mutants
+summary: Video of in-person talk in Ottawa, Canada in ICSE 2025 for the paper "Leveraging Propagated Infection to Crossfire Mutants"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -52,4 +52,4 @@ projects:
 ---
 
 
-{{< youtube 7ScjCkU-Y-U >}}
+{{< youtube LPibpsny1ns >}}
