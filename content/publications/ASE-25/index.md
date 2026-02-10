@@ -44,8 +44,8 @@ featured: true
 
 # Standard identifiers for auto-linking
 hugoblox:
-#  ids:
- #   doi: tobeupdated
+ ids:
+   doi: https://doi.org/10.1109/ASE63991.2025.00108
 
 # Custom links
 links:
