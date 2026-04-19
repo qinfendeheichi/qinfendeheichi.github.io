@@ -25,6 +25,10 @@
 {{ $show_training := $block.content.show_training | default false }}
 {{ $training_title := $block.content.training_title | default "Training & Professional Development" }}
 
+{{/* Local override: allow hiding the Education section (shown by default). */}}
+{{ $show_education := true }}
+{{ if isset $block.content "show_education" }}{{ $show_education = $block.content.show_education }}{{ end }}
+
 <div class="flex flex-col items-center mx-auto w-full max-w-prose justify-center">
 
 <!-- Need Gap >= 3 when flex-row due to negative margin on cols (-start-3) -->
@@ -67,7 +71,7 @@
 </div>
 {{ end }}
 
-{{ if $person.education }}
+{{ if and $show_education $person.education }}
 <div class="w-full">
   <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "education" }}</h3>
     <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
