@@ -79,6 +79,20 @@ education:
       
 work:
 
+  - position: "Guest Lecturer – SWE 261P: Software Testing"
+    company_name: "University of California, Irvine"
+    date_start: 2026-02-01
+    date_end: 2026-02-28
+    summary: |
+      Delivered a guest lecture on mocking, stubbing, and testable design for the graduate software testing course, integrating recent industry practices and research advances. Developed the accompanying slides and assignments.
+
+  - position: "Guest Lecturer – INF 215: Dynamic Analysis, Testing, and Debugging"
+    company_name: "University of California, Irvine"
+    date_start: 2025-04-01
+    date_end: 2025-04-30
+    summary: |
+      Delivered a special lecture on mutation testing and its applications in assessing test adequacy, revealing fault propagation, and guiding test improvement.
+
   - position: "Associate Instructor – ICS 45J: Programming in Java"
     company_name: "University of California, Irvine"
     date_start: 2023-07-01
@@ -107,34 +121,66 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
+      - name: Software Testing
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+        icon: shield-check
+      - name: Mutation Testing
         description: ''
-        percent: 85
-        icon: cloud
+        percent: 100
+        icon: bug-ant
+      - name: Test Generation
+        description: ''
+        percent: 95
+        icon: beaker
+      - name: Program Analysis
+        description: ''
+        percent: 95
+        icon: document-magnifying-glass
+      - name: Program Instrumentation
+        description: ''
+        percent: 90
+        icon: wrench-screwdriver
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Photography
         description: ''
-        percent: 80
+        percent: 85
+        icon: camera
+      - name: Foodie
+        description: ''
+        percent: 95
+        icon: cake
+      - name: Hiking
+        description: ''
+        percent: 85
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Traveling
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: globe-alt
+      - name: Erhu Player
         description: ''
-        percent: 70
-        icon: book-open
+        percent: 80
+        icon: musical-note
+
+# Teaching-related training / certifications (shown on the Teaching page).
+# Ordered most-recent first.
+training:
+  - name: "Essential Class Design Certificate Program"
+    institution: "University of California, Irvine"
+    date: "Winter 2026"
+  - name: "Mentoring Excellence Certificate Program"
+    institution: "University of California, Irvine"
+    date: "Fall 2025"
+  - name: "Emotional Intelligence Certificate Program"
+    institution: "University of California, Irvine"
+    date: "Spring 2024"
+  - name: "Public Speaking: Activate to Captivate Certificate Program"
+    institution: "University of California, Irvine"
+    date: "Winter 2024"
 
 languages:
   - name: English
@@ -143,6 +189,7 @@ languages:
     percent: 100
   - name: Spanish
     percent: 50
+    description: ":fire: 500+ day Duolingo streak"
 
 # Awards.
 #   Add/remove as many awards below as you like.

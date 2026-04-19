@@ -1,5 +1,5 @@
 ---
-title: 'Experience'
+title: 'Teaching'
 date: 2023-10-24
 type: landing
 
@@ -14,6 +14,9 @@ sections:
   - block: resume-experience
     content:
       username: admin
+      experience_title: Teaching
+      show_training: true
+      training_title: Training & Professional Development
     design:
       # Hugo date format
       date_format: 'January 2006'

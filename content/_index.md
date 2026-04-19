@@ -44,10 +44,13 @@ sections:
     content:
       title: Recent Publications
       text: ''
+      count: 0
       filters:
         folders:
           - publications
         exclude_featured: false
+      archive:
+        enable: false
     design:
       view: citation
   

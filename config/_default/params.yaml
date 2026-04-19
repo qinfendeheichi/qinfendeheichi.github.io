@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Hang Du. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -51,6 +51,9 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+
+# Disable Hugo Blox branding badge
+i_am_a_sponsor: true
 
 # Site features
 features:
