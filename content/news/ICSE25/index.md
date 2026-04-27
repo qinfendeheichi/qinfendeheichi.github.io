@@ -52,4 +52,8 @@ projects:
 ---
 
 
-{{< youtube LPibpsny1ns >}}
+<video controls preload="metadata" style="width:100%; max-width:960px; border-radius:0.5rem;">
+  <source src="talk2025ICSE.mp4" type="video/mp4">
+  Sorry, your browser doesn't support embedded videos.
+  You can <a href="talk2025ICSE.mp4">download the video here</a> instead.
+</video>
