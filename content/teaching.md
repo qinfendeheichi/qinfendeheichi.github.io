@@ -16,6 +16,7 @@ sections:
       username: admin
       experience_title: Teaching
       show_education: false
+      show_fellowships: true
       show_training: true
       training_title: Training & Professional Development
     design:

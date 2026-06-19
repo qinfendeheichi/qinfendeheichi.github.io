@@ -109,7 +109,7 @@ work:
     date_start: 2022-09-01
     date_end: 2025-10-01
     summary: |
-      Teaching Assistants for  **INF 115**: Software Testing, Analysis, and QA, **INF 43**: Introduction to Software Engineering, and **SWE 261P**: Software Testing and Debuggin
+      Teaching Assistants for  **INF 115**: Software Testing, Analysis, and QA, **INF 122**: Software Design, **INF 43**: Introduction to Software Engineering, and **SWE 261P**: Software Testing and Debugging
             
       Supported lectures, graded assignments, and assisted students in understanding software engineering practices.
 
@@ -165,6 +165,25 @@ skills:
         description: ''
         percent: 80
         icon: musical-note
+
+# Teaching-related honors, awards, and competitive fellowships
+# (shown on the Teaching page).
+fellowships:
+  - name: "CSU Pre-Professor Program (PREPP) Fellowship"
+    institution: "UCI Graduate Division × California State University System"
+    date: "August – December 2026"
+    summary: |
+      A semester-long fellowship embedding UCI doctoral candidates in a CSU department for hands-on
+      tenure-track preparation. Paired with a **CSU faculty mentor** for guest lecturing, classroom
+      observation, the CSU RTP process, and tenure-track job materials.
+  - name: "DTEI Graduate Scholars Program Fellowship"
+    institution: "Division of Teaching Excellence and Innovation (DTEI), University of California, Irvine"
+    date: "July – September 2026"
+    summary: |
+      UCI campus-wide fellowship supporting graduate–faculty pairs to redesign undergraduate courses.
+      Partnering with **Prof. James A. Jones** to redesign **INF 43: Introduction to Software Engineering**
+      — UCI's largest software-engineering course — around responsible **agentic-AI integration**, a
+      milestone-based team-project arc, and an expanded ACM Code of Ethics curriculum.
 
 # Teaching-related training / certifications (shown on the Teaching page).
 # Ordered most-recent first.
