@@ -28,7 +28,7 @@ publication: 'In FSE 2026: ACM International Conference
 on the Foundations of Software Engineering'
 publication_short: In **FSE 2026 (accepted)**
 
-abstract: 'We are preparing the camera ready version of the paper.'
+abstract: 'A central challenge in software testing is deciding which parts of a program’s state to check as evidence of correct behavior to reveal regressions. These checks are embodied as test oracles, typically as assertions in test cases. State observation strategies play a decisive role in shaping how effectively regressions can be revealed. Such strategies range from exhaustive memory snapshots to selective attribute checks via getter methods and nullability checks. These strategies are deeply embedded in both research and practice: academic work has explored heuristic- and serialization-based oracles, while industry has widely adopted snapshot testing. Despite their importance, the effects of different state-capture choices remain poorly understood from a scientific perspective. In this work, we present an experimental framework for systematically analyzing these design choices along the dimensions of observation scope, extraction approach, and extraction depth. Using this framework, we conduct an empirical study across twelve real-world projects, measuring how state-capture strategies influence regression-revealing capability and the richness of oracle information. Our findings reveal that human-written assertions often under-utilize available program state, achieving well below the fault-revealing potential of systematic observation strategies. Simple design choices, such as exposing unchecked intermediate return values, carefully selecting getters, and deepening state extraction, can yield measurable improvements (avg. 35.7%) in regression detection without needing to observe an overwhelmingly large amount of program-state data. Additionally, we highlight the challenges of observability, assertion desirability, and the trade-offs of capturing richer program states. Such insights show how small design choices can yield major differences in regression detection and potentially offer concrete directions for both tool builders and practitioners.'
 
 # Summary. An optional shortened abstract.
 # summary: '[ASE 25] We introduce Disjoint Assertion Tangle (DAT), a novel test-code smell, and present U2W, a tool that detects and refactors such smells into focused and parameterized tests to improve readability, maintainability, and scalability.'
@@ -49,8 +49,8 @@ hugoblox:
 
 # Custom links
 links:
-  # - type: pdf
-  #   url: "conference-paper.pdf"
+  - type: pdf
+    url: "conference-paper.pdf"
   #- type: slides
    # url: slide.pptx
 
