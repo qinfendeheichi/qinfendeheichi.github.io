@@ -1,0 +1,13 @@
+# Local override of the Hugo Blox page sharer.
+# Keeps only Email and LinkedIn; X, Facebook, and WhatsApp are removed.
+links:
+  - id: email
+    url: 'mailto:?subject={title}&body={url}'
+    title: Email
+    icon: hero/at-symbol
+    enable: true
+  - id: linkedin
+    url: 'https://www.linkedin.com/shareArticle?url={url}&title={title}'
+    title: LinkedIn
+    icon: brands/linkedin
+    enable: true
