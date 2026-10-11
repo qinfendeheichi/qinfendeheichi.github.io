@@ -40,8 +40,8 @@ links:
 
 # Featured image (bundle-relative).
 image:
-  caption: ''
-  focal_point: ''
+  caption: 'Coupling between surviving mutants and real bugs — observed vs. unobserved, as revealed through bug-fixing tests.'
+  focal_point: 'Center'
   preview_only: false
 
 projects: []
