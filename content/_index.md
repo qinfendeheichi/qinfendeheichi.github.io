@@ -30,19 +30,9 @@ sections:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: collection
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
     id: papers
     content:
-      title: Recent Publications
+      title: Publications
       text: ''
       count: 0
       filters:
@@ -53,5 +43,24 @@ sections:
         enable: false
     design:
       view: citation
+  - block: markdown
+    id: education
+    content:
+      title: Education
+      text: |
+        <ul class="elegant-education">
+          <li>
+            <span class="elegant-ed-area">Ph.D. Software Engineering (continuing)</span>
+            <span class="elegant-ed-inst">University of California, Irvine</span>
+          </li>
+          <li>
+            <span class="elegant-ed-area">M.S. Software Engineering</span>
+            <span class="elegant-ed-inst">University of California, Irvine</span>
+          </li>
+          <li>
+            <span class="elegant-ed-area">B.S. Computer Science</span>
+            <span class="elegant-ed-inst">Jilin University, China</span>
+          </li>
+        </ul>
   
 ---

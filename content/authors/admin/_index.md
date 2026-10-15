@@ -217,7 +217,7 @@ languages:
 awards:
 
 ---
-Hang Du is currently a Ph.D. candidate in Software Engineering at the University of California, Irvine, where he is fortunate to be advised by [**Prof. James A. Jones**](https://jamesajones.com/). He also receives mentorship from **Dr. Vijay Krishna Palepu**, a SpiderLab alumnus currently at Microsoft. He earned his B.Sc. in Computer Science from Jilin University in China and an M.S. in Software Engineering from UC Irvine.
+Hang Du is currently a Ph.D. candidate in Software Engineering at the University of California, Irvine, where he is fortunate to be advised by [**Prof. James A. Jones**](https://jamesajones.com/). He also receives mentorship from **Dr. Vijay Krishna Palepu**, a SpiderLab alumnus currently at Microsoft.
 
 Hang Du's research focuses on advancing software testing, program analysis, instrumentation, and mutation analysis to improve how we evaluate software correctness. In the era of large language models (LLMs), his work aims to rethink how software should be tested, validated, and understood—developing new testing methodologies and environments that safeguard AI-assisted development. Beyond research, Hang is committed to modernizing software engineering education to better prepare students for testing and maintaining AI-generated code.
 
